@@ -29,6 +29,9 @@
 		D9C2BDD326960FC300A27246 /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = D9C2BDCF26960FC300A27246 /* videos.json */; };
 		D9CDD6CD269C4CD9008D3F2E /* AnimalListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CDD6CC269C4CD9008D3F2E /* AnimalListItemView.swift */; };
 		D9CDD6D0269C4E99008D3F2E /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CDD6CF269C4E99008D3F2E /* AnimalModel.swift */; };
+		D9CDD6D3269C5169008D3F2E /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CDD6D2269C5169008D3F2E /* AnimalDetailView.swift */; };
+		D9CDD6D6269C7D2D008D3F2E /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CDD6D5269C7D2D008D3F2E /* HeadingView.swift */; };
+		D9CDD6D9269C7F39008D3F2E /* InsetGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CDD6D8269C7F39008D3F2E /* InsetGalleryView.swift */; };
 		D9E6090726971D5B0097D445 /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E6090626971D5B0097D445 /* VideoListView.swift */; };
 		D9E6090A26971DA60097D445 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E6090926971DA60097D445 /* MapView.swift */; };
 		D9E6090D26971DBA0097D445 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E6090C26971DBA0097D445 /* GalleryView.swift */; };
@@ -61,6 +64,9 @@
 		D9C2BDCF26960FC300A27246 /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos.json; sourceTree = "<group>"; };
 		D9CDD6CC269C4CD9008D3F2E /* AnimalListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListItemView.swift; sourceTree = "<group>"; };
 		D9CDD6CF269C4E99008D3F2E /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
+		D9CDD6D2269C5169008D3F2E /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
+		D9CDD6D5269C7D2D008D3F2E /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
+		D9CDD6D8269C7F39008D3F2E /* InsetGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryView.swift; sourceTree = "<group>"; };
 		D9E6090626971D5B0097D445 /* VideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
 		D9E6090926971DA60097D445 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		D9E6090C26971DBA0097D445 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
@@ -182,6 +188,9 @@
 			children = (
 				D9E60913269723390097D445 /* CoverImageView.swift */,
 				D9CDD6CC269C4CD9008D3F2E /* AnimalListItemView.swift */,
+				D9CDD6D2269C5169008D3F2E /* AnimalDetailView.swift */,
+				D9CDD6D5269C7D2D008D3F2E /* HeadingView.swift */,
+				D9CDD6D8269C7F39008D3F2E /* InsetGalleryView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -274,12 +283,15 @@
 				D9E6091026971DCD0097D445 /* MainView.swift in Sources */,
 				D9E60914269723390097D445 /* CoverImageView.swift in Sources */,
 				D99FB85D26973EE600741BD5 /* CoverImageModel.swift in Sources */,
+				D9CDD6D3269C5169008D3F2E /* AnimalDetailView.swift in Sources */,
 				D9CDD6D0269C4E99008D3F2E /* AnimalModel.swift in Sources */,
 				D9E6090A26971DA60097D445 /* MapView.swift in Sources */,
 				D9C2BDA626960C0B00A27246 /* AfricaApp.swift in Sources */,
 				D9E6090726971D5B0097D445 /* VideoListView.swift in Sources */,
 				D9E6090D26971DBA0097D445 /* GalleryView.swift in Sources */,
+				D9CDD6D9269C7F39008D3F2E /* InsetGalleryView.swift in Sources */,
 				D99FB861269741B500741BD5 /* CodableBundleExtension.swift in Sources */,
+				D9CDD6D6269C7D2D008D3F2E /* HeadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
